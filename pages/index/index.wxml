@@ -1,0 +1,9 @@
+<template name='view1'>
+  <view>
+    <text>标题：{{title}}</text>
+     <text>时间：{{date}}</text>
+     <button type='primary' bindtap='tapEvent' disabled='{{true}}'>按钮</button>
+  </view>
+</template>  
+
+<template is='view1' data="{{title:'我是标题',date:'2019 5-12'}}"></template>
